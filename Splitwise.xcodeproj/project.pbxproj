@@ -19,6 +19,7 @@
 		635F38DB2612A4CD006E2659 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635F38DA2612A4CD006E2659 /* CoreDataManager.swift */; };
 		635F38DE2612A503006E2659 /* CoreDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635F38DD2612A503006E2659 /* CoreDataViewModel.swift */; };
 		635F38E12612A575006E2659 /* BillDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 635F38E02612A575006E2659 /* BillDetailsView.swift */; };
+		6371A41F2613A4600096E543 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6371A41E2613A4600096E543 /* LoginView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		635F38DA2612A4CD006E2659 /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		635F38DD2612A503006E2659 /* CoreDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataViewModel.swift; sourceTree = "<group>"; };
 		635F38E02612A575006E2659 /* BillDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillDetailsView.swift; sourceTree = "<group>"; };
+		6371A41E2613A4600096E543 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				635F38D72612A236006E2659 /* ListBillView.swift */,
 				635F38E02612A575006E2659 /* BillDetailsView.swift */,
 				631FFDE62612C59E00500F6A /* AddBillView.swift */,
+				6371A41E2613A4600096E543 /* LoginView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -202,6 +205,7 @@
 				635F38BB261294E1006E2659 /* ContentView.swift in Sources */,
 				635F38E12612A575006E2659 /* BillDetailsView.swift in Sources */,
 				635F38D82612A236006E2659 /* ListBillView.swift in Sources */,
+				6371A41F2613A4600096E543 /* LoginView.swift in Sources */,
 				635F38B9261294E1006E2659 /* SplitwiseApp.swift in Sources */,
 				635F38D52612998D006E2659 /* AddContactView.swift in Sources */,
 			);
