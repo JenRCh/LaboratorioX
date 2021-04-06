@@ -6,15 +6,24 @@ struct ListBillView: View {
     var body: some View {
         NavigationView{
             VStack{
+                Text("Balance total:").font(.title2)
+                Text("Colones: ").font(.title3)
+                Text("Dolares: ").font(.title3)
+                
+                
                 List{ ForEach(coreDataVM.bills, id: \.self){
                     bill in
                     NavigationLink(
                         destination: BillDetailsView(bill: bill),
                         label:{
                             Label(
-                                bill.nombre ?? "No Name",
+                                bill.cantidad ?? "Sin monto",
                                 systemImage: priorityImages(moneda: bill.moneda ?? ""))
+                            Label(
+                                bill.nombre ?? "No Name",
+                                systemImage:"person.circle")
                         }
+                        
                 )
                 }.onDelete(perform: { indexSet in
                     indexSet.forEach{
